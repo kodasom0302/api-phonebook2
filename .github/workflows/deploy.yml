@@ -3,7 +3,7 @@ name: Deploy Phonebook2App
 on:
   push:
     branches:
-      - master # 또는 프로젝트의 기본 브랜치명
+      - master
 
 jobs:
   build-and-deploy:
