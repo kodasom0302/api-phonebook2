@@ -36,7 +36,7 @@ jobs:
   SSH:
     needs: build-and-deploy	#build-and-deploy가 진행된 후에
     runs-on: ubuntu-latest
-    steps: 
+    steps:
       - uses: actions/checkout@v3
       - name: ssh to ec2
         uses: appleboy/ssh-action@master
